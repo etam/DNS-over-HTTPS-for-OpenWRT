@@ -86,12 +86,12 @@ log_level = 0
 
 ## log file for the application
 
-log_file = '/var/log/dnscrypt-proxy.log'
+# log_file = '/var/log/dnscrypt-proxy.log'
 
 
 ## Use the system logger (syslog on Unix, Event Log on Windows)
 
-# use_syslog = true
+use_syslog = true
 
 
 ## Delay, in minutes, after which certificates are reloaded
@@ -212,7 +212,7 @@ cache_neg_ttl = 60
 
   ## Path to the query log file (absolute, or relative to the same directory as the executable file)
 
-  file = '/var/log/dnscrypt-proxy-query.log'
+  # file = '/var/log/dnscrypt-proxy-query.log'
 
 
   ## Query log format (currently supported: tsv and ltsv)
